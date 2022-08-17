@@ -1,6 +1,71 @@
 body {
-  background: pink;
+  background:rgb(255, 169, 169);
 }
 h1 {
   text-align: center;
+}
+/*
+  position: absolute;
+  position: fixed;
+  position: sticky;
+*/
+.caixa1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background:rgb(126, 201, 247);
+  left: 50px;
+}
+.menuPrincipal {
+  position: absolute;
+  background: rgb(130, 255, 186);
+  width: 100%;
+  height: 30px;
+  top: 0;
+}
+nav ul{
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: rgb(168, 75, 255);
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover{
+ background-color: rgb(151, 49, 151); 
+ color: violet;
+}
+.boximag{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  background-color: aquamarine;
+  top: 30%;
+}
+#bola {
+  width: 80px;
+  height: 80;
+}
+.rodape {
+  position: absolute;
+  width: 100%;
+  color: blue
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  display: flax;
+  justify-content: center;
+}
+.conteudoHome {
+  position: absolute;
+  top: 45px;
 }
